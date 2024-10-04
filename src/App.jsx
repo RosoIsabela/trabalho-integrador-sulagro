@@ -1,14 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import TelaLoginBemVindo from './components/TelaLoginBemVindo'
+import TelaLoginLeft from './components/TelaLoginLeft'
+import TelaLoginRight from './components/TelaLoginRight'
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      
+      <TelaLoginLeft />
+      <TelaLoginRight />
+
+      <TelaLoginBemVindo />
+
     </>
   )
 }
