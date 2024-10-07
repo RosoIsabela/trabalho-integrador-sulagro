@@ -10,7 +10,6 @@ function App() {
       <TelaLoginLeft />
       <TelaLoginRight />
 
-      <TelaLoginBemVindo />
 
     </>
   )
