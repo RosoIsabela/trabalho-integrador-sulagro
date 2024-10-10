@@ -9,12 +9,14 @@ import Home from './components/home'
 function App() {
   return (
     <>
+      
       <TelaLoginLeft />
       <TelaLoginRight />
 
       {/*
       <Sidebar />
       */}
+      
     </>
   )
 }
